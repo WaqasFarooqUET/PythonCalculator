@@ -8,7 +8,7 @@ num1 = st.number_input('Enter the first number value here', value=0.0)
 num2 = st.number_input('Enter the second number value here', value=0.0)
 
 # Drop-down menu for operation selection
-operation = st.selectbox('Choose an operation to calculate', ['Add', 'Subtract', 'Multiply', 'Divide'])
+operation = st.selectbox('Choose an operation to calculate', ['Addition', 'Subtraction', 'Multiplication', 'Division'])
 
 # Calculate result based on selected operation
 result = None
