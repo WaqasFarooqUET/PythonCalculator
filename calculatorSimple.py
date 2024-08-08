@@ -11,7 +11,7 @@ num2 = st.number_input('Enter the second number value here', value=0.0)
 operation = st.selectbox('Choose an operation to calculate', ['Add', 'Subtract', 'Multiply', 'Divide'])
 
 # Calculate result based on selected operation
-result = None
+#result = None
 if operation == 'Addition':
     result = num1 + num2
 elif operation == 'Subtraction':
@@ -23,7 +23,8 @@ elif operation == 'Division':
         result = num1 / num2
     else:
         result = 'Error: Division by zero'
-
+st.write("Result: ",result)
 # Display the result
-if result is not None:
-    st.write(f'The result of {operation}ing {num1} and {num2} is: {result}')
+#if result is not None:
+    
+    #st.write(f'The result of {operation}ing {num1} and {num2} is: {result}')
